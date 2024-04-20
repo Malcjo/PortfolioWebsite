@@ -3,25 +3,24 @@ export default function Contact() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
-
-    function encode(data){
+    function encode(data) {
         return Object.keys(data)
-        .map(
+          .map(
             (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    }
+          )
+          .join("&");
+      }
     
-    function handleSubmit(e){
+    function handleSubmit(e) {
         e.preventDefault();
         fetch("/", {
-            method: "POST",
-            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-            body: encode({ "form-name": "contact", name, email, message}),
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", name, email, message }),
         })
-        .then(()=> alert("Message Sent!"))
-        .catch((error)=> alert(error));
-    }
+          .then(() => alert("Message sent!"))
+          .catch((error) => alert(error));
+      }
 
     return (
         <section id="contact" className="relative">
