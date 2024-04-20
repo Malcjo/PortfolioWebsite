@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "React Reserve",
+    title: "Portfolio Website",
     subtitle: "MERN Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
@@ -8,7 +8,7 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "React Tracks",
+    title: "Iron Brawlers",
     subtitle: "React and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
@@ -16,7 +16,7 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "DevChat",
+    title: "Mower Mayhem",
     subtitle: "React and Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
@@ -24,7 +24,23 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "Epic Todo App",
+    title: "Village Game",
+    subtitle: "React Hooks",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./project-4.gif",
+    link: "https://reactbootcamp.com",
+  },
+  {
+    title: "Dungeon Generator",
+    subtitle: "React Hooks",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./project-4.gif",
+    link: "https://reactbootcamp.com",
+  },
+  {
+    title: "Katamari Clone",
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
@@ -51,10 +67,7 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Web Development - HTML, CSS, Javascript",
+  "Software Development - C#, Java",
+  "Game Development - Unity, Unreal, Maya",
 ];
