@@ -8,14 +8,15 @@ export default function About(){
                     <h1 className="title-font sm:text=4xl text-3xl mb-4 font-medium text-white">
                     Hi I'm Josh.
                     <br className="hidden lg:inline-block"/> 
-                    I love to build amazing apps
+                    I love be curious about the world and be creative
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                    I little description of myself Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                    laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                    Laborum, voluptas natus?
+                    I'm Joshua Malcolm, I have a level 7 diploma in Video Game Art and Development and a Masters in Software Developement
+                    I'm a Software and Video Game Developer looking to find a place in the Game development Industry
+                    I enjoy learning about Game development theory, Philosophy, Psychology, and being creative.
+                    I have a passion for mental health and learning about others and the world I live in.
                     </p>
-                    <div className="flex justify-center">
+                    {/*<div className="flex justify-center">
                         <a 
                         href="#contact"
                         className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
@@ -26,13 +27,13 @@ export default function About(){
                         className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                             My Projects
                         </a>
-                    </div>
+    </div>*/}
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w1/2 w-5/6">
+                <div className="lg:max-w-md lg:w-full md:w-1/2 w-2/5">
                     <img
-                    className="object-cover object-center rounded"
+                    className="border-4 border-gray-800 object-cover object-center rounded-3xl opacity-50 "
                     alt="hero"
-                    src="./coding.svg"
+                    src="./void.jpg"
                     />
                 </div>
             </div>  
