@@ -11,10 +11,15 @@ export default function About(){
                     I love be curious about the world and be creative
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                    I'm Joshua Malcolm, I have a level 7 diploma in Video Game Art and Development and a Masters in Software Developement
-                    I'm a Software and Video Game Developer looking to find a place in the Game development Industry
-                    I enjoy learning about Game development theory, Philosophy, Psychology, and being creative.
-                    I have a passion for mental health and learning about others and the world I live in.
+                        I'm Joshua Malcolm, I have a level 7 diploma in Video Game Art and Development and a Masters in Software Developement
+                        I'm a Software and Video Game Developer looking to find a place in the Game development Industry
+                        I enjoy learning about Game development theory, Philosophy, Psychology, and being creative.
+                        I have a passion for mental health and learning about others and the world I live in.
+                    </p>
+                    <p>
+                        My Github:
+                        <a href="https://github.com/Malcjo" className="text-blue-400"> https://github.com/Malcjo
+                        </a>
                     </p>
                     {/*<div className="flex justify-center">
                         <a 
@@ -31,12 +36,12 @@ export default function About(){
                 </div>
                 <div className="lg:max-w-md lg:w-full md:w-1/2 w-2/5">
                     <img
-                    className="border-4 border-gray-800 object-cover object-center rounded-3xl opacity-50 "
-                    alt="hero"
-                    src="./void.jpg"
+                        className="border-4 border-gray-800 object-cover object-center rounded-3xl opacity-50 "
+                        alt="hero"
+                        src="./void.jpg"
                     />
                 </div>
-            </div>  
+            </div>
         </section>
     );
 }
