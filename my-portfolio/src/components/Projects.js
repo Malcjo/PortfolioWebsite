@@ -13,7 +13,7 @@ export default function Projects(){
                         Projects I've worked on
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Here are a few of my projects I've worked/ working on
+                        Here are a few of my projects I've worked/ working
                     </p>
                 </div>
                 {/* Section where displaying projects*/}
@@ -22,10 +22,10 @@ export default function Projects(){
                         <div className="sm:w-1/2 w-100 p-4">
                             <div className="flex relative">
 
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-100 hover:opacity-100">
+                                <div className="px-4 py-5 relative z-10 w-full border-4 border-gray-800 bg-gray-900">
                                     <img
                                         alt="gallery"
-                                        className="inset-0 w-min h-min"
+                                        className=""
                                         src={project.image}
                                     />
                                     {/*absolute inset-0 w-full h-full object-cover object-center */}
@@ -39,13 +39,13 @@ export default function Projects(){
                                         {project.description}
                                     </p>
                                     <a href={project.link}
-                                        className="text-blue-400">
-                                        {project.link}
+                                        className="text-blue-400 text-wrap">
+                                        {project.title} Itch link
                                     </a>
                                     <br />
                                     <a href={project.github}
-                                        className="text-blue-400">
-                                        {project.github}
+                                        className="text-blue-400 text-wrap">
+                                        {project.title} Github link
                                     </a>
                                 </div>
                             </div>
