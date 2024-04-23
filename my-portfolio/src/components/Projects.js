@@ -4,7 +4,8 @@ import {projects} from "../data";
 
 export default function Projects(){
     return (
-        <section id = "projects" className="text-gray-400 bg-gray-900 body-font">
+        <section id = "projects" className="text-gray-400  body-font
+        bg-gradient-to-b from-transparent via-gray-900 via-80% to-gray-900 to-90%">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 {/* Title section for projects */}
                 <div className="flex flex-col w-full mb-20">
