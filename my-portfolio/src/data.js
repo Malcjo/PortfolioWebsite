@@ -35,8 +35,8 @@ export const projects = [
       "This is a work-in-progress project with me and a friend. We wanted to design and make a game for the Unreal Engine. I idea was to have a project to work on while learning the engine. I created a foundation project from completing a course and have slowly been tweaking and changing it to fit our desired game design, It's currently in an unrefined MVP state, with only a testing scene."+
       "This project I have found this to be quite difficult, The course was incredible to follow and create some complex systems working together, but progress has slowed down as I've been trying to organise and understand each aspect, I have also found Unreal's Blueprint system to very easily become a visual mess compared to a scripting language."+
       "This project has been great with giving me a more visual demonstration on how Interfaces can interact with different controllers, and how to plan and create code that is more modular.",
-    image: "./project-4.gif",
-    link: "https://malcolmportfolio.netlify.app/",
+    image: "./VillageGame.png",
+    link: "https://malcjo.itch.io/village-game-wip",
     github: "https://github.com/Malcjo/Village"
   },
   {
