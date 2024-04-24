@@ -1,14 +1,5 @@
 export const projects = [
   {
-    title: "Portfolio Website",
-    subtitle: "React.js and CSS Tailwind",
-    description:
-      "This project is for me to over time as my react and CSS Tailwind skills get better to add more complexity to the website, and at the same time being able to showcase my creative projects and portfolio in one place.\n This project was my first time using React and CSS Tailwind so it is quite simple but has given me a create baseline to experiment and improve on.",
-    image: "./Website.png",
-    link: "https://malcolmportfolio.netlify.app/",
-    github: "https://github.com/Malcjo/PortfolioWebsite"
-  },
-  {
     title: "Iron Brawlers",
     subtitle: "Unity: 6 month group project: C#",
     description:
@@ -16,17 +7,6 @@ export const projects = [
     image: "./Iron-Brawlers.gif",
     link: "https://iron-brawlers.itch.io/iron-brawlers-alpha-test-version",
     github: "https://github.com/Malcjo/Iron-Brawlers-2"
-  },
-  {
-    title: "Mower Mayhem",
-    subtitle: "Unity: 4 week group project: Project management",
-    description:
-      "This was a 4 week group project there were 5 of us in the group, 3 artists and 2 programmers. I was the project manager and programmer in charge of making sure things were completed. we used an agile inspired workflow with a Kanban board, daily standups and weekly sprints. \n"+ 
-      "This project taught me heaps about planning a project and compromising with group conflicts, knowing when to push for something and when to understand when someone can't complete something so need to compromise or finish off things for them.\n"+
-      "This project I found quite challenging, dealing with clashes between team members, and planning, I didn't learn too much with the programming aspects but learn heaps about what it's like dealing with a clashing group.",
-    image: "./Mower Mayhem.gif",
-    link: "https://colaboratory.itch.io/mower-mayhem",
-    github: "https://github.com/TrashCanPete/Mower-Mayhem-2"
   },
   {
     title: "Village Game",
@@ -38,6 +18,49 @@ export const projects = [
     image: "./VillageGame.png",
     link: "https://malcjo.itch.io/village-game-wip",
     github: "https://github.com/Malcjo/Village"
+  },
+  {
+    title: "Katamari Clone",
+    subtitle: "Shader lab/ HLSL, Unity Engine",
+    description:
+      "This was a 1 week assignment where I was meant to produce something that we were not taught, so I decided to learn how to write basic shader code within the Unity engine, as well as create a game to be able to showcase the materials"+
+      "The game is inspired by the game katamari, the mathematical calculations in shader code still go right over my head but it's nice to have learned some basics, I want to continue to practice more and learn the maths behind to eventually create some more complex shaders of my own",
+    image: "./KatamariClone.png",
+    link: "https://malcjo.itch.io/katamari-clone",
+    github: "https://github.com/Malcjo/Katamari"
+  },
+  {
+    title: "Freefall",
+    subtitle: "4 week group project",
+    description:
+      "This was my first project working as a solo game programmer in a team, developed back in 2019"+
+      "I was working with 3 other artists, This was a daunting task but was super enjoyable, experimenting and testing the game" +
+      "the main challenge was simulating gliding physics, or really not knowing how so just experimenting",
+    image: "./Freefall.png",
+    link: "https://malcjo.itch.io/freefall",
+    github: "https://github.com/TrashCanPete/Freefall-3.0"
+  },
+  {
+    title: "Clown In The Hole ",
+    subtitle: "Kiwijam 2021",
+    description:
+      "Clown in the hole was made during Kiwijam 2021 in Wellington. The theme was adapt, I was the programmer working with two other artists" +
+      "This was a great projec to work on, putting pressure on trying to make a semi functional game within a  tight timeframe, and keeping it simple but interesting",
+    image: "./clowngame.png",
+    link: "https://yungghibli.itch.io/clown-baby-game",
+    github: "https://github.com/Malcjo/KiwiJam2021/"
+
+  },
+  {
+    title: "Mower Mayhem",
+    subtitle: "Unity: 4 week group project: Project management",
+    description:
+      "This was a 4 week group project there were 5 of us in the group, 3 artists and 2 programmers. I was the project manager and programmer in charge of making sure things were completed. we used an agile inspired workflow with a Kanban board, daily standups and weekly sprints. \n"+ 
+      "This project taught me heaps about planning a project and compromising with group conflicts, knowing when to push for something and when to understand when someone can't complete something so need to compromise or finish off things for them.\n"+
+      "This project I found quite challenging, dealing with clashes between team members, and planning, I didn't learn too much with the programming aspects but learn heaps about what it's like dealing with a clashing group.",
+    image: "./Mower Mayhem.gif",
+    link: "https://colaboratory.itch.io/mower-mayhem",
+    github: "https://github.com/TrashCanPete/Mower-Mayhem-2"
   },
   {
     title: "Dungeon Generator",
@@ -52,14 +75,13 @@ export const projects = [
     github: "https://github.com/gamefrootdungeon/Dungeon-Gen/"
   },
   {
-    title: "Katamari Clone",
-    subtitle: "Shader lab/ HLSL, Unity Engine",
+    title: "Portfolio Website",
+    subtitle: "React.js and CSS Tailwind",
     description:
-      "This was a 1 week assignment where I was meant to produce something that we were not taught, so I decided to learn how to write basic shader code within the Unity engine, as well as create a game to be able to showcase the materials"+
-      "The game is inspired by the game katamari, the mathematical calculations in shader code still go right over my head but it's nice to have learned some basics, I want to continue to practice more and learn the maths behind to eventually create some more complex shaders of my own",
-    image: "./KatamariClone.png",
-    link: "https://malcjo.itch.io/katamari-clone",
-    github: "https://github.com/Malcjo/Katamari"
+      "This project is for me to over time as my react and CSS Tailwind skills get better to add more complexity to the website, and at the same time being able to showcase my creative projects and portfolio in one place.\n This project was my first time using React and CSS Tailwind so it is quite simple but has given me a create baseline to experiment and improve on.",
+    image: "./Website.png",
+    link: "https://malcolmportfolio.netlify.app/",
+    github: "https://github.com/Malcjo/PortfolioWebsite"
   },
 ];
 
