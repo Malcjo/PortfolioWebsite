@@ -12,13 +12,22 @@ export default function Navbar(){
                 </a>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-1 md:border-gray-700
                 flex flex-wrap items-center text-base justify-center">
-                    <a href="#projects" className="mr-5 hover:text-white">
+                    <a href="#projects" className="mr-5 text-blue-400 hover:text-white">
                         Projects
                     </a>
-                    <a href="#skills" className="mr-5 hover:text-white">
+                    <a href="#skills" className="mr-5 text-blue-400 hover:text-white">
                         Skills
                     </a>
+                    <a href="https://github.com/Malcjo" className="mr-5 text-blue-400 hover:text-white">
+                        Github
+                    </a>
+                    <a href="https://www.instagram.com/joshuaericmalcolm/" className="mr-5 text-blue-400 hover:text-white">
+                        Instagram
+                    </a>
                 </nav>
+
+
+
                 {/*<a
                 href = "#contact"
                 className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">

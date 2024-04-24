@@ -27,11 +27,22 @@ export default function About(){
 
                     </p>
                     <div className="content-center">
-                        <h1 className="text-xl text-white text-left">
-                            My Github:
-                        </h1>
-                        <a href="https://github.com/Malcjo" className="text-blue-400"> https://github.com/Malcjo
-                        </a>
+                        <div>
+                            <h1 className="text-xl text-white text-left">
+                                My Github:
+                            </h1>
+                            <a href="https://github.com/Malcjo" className="text-blue-400 hover:text-white">
+                                https://github.com/Malcjo
+                            </a>
+                        </div>
+                        <div className="py-5">
+                            <h1 className="text-xl text-white text-left">
+                                My Instagram
+                            </h1>
+                            <a href="https://www.instagram.com/joshuaericmalcolm/" className="text-blue-400 hover:text-white">
+                                https://www.instagram.com/joshuaericmalcolm/
+                            </a>
+                        </div>
                     </div>
 
                 </div>

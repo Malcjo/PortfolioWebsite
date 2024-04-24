@@ -13,7 +13,7 @@ export default function Projects(){
                     <h1 className="sm:text-4xl text text-3xl font-medium title-font mb-4 text-white">
                         Projects I've worked on
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-blue-200">
                         Here are a few of my projects I've worked/ working
                     </p>
                 </div>
@@ -23,10 +23,10 @@ export default function Projects(){
                         <div className="sm:w-1/2 w-100 p-4">
                             <div className="flex relative">
 
-                                <div className="px-4 py-5 relative z-10 w-full border-4 border-gray-800 bg-gray-900">
+                                <div className="px-4 py-5 relative z-10 w-full border-4 border-gray-800 bg-gray-900 ">
                                     <img
                                         alt="gallery"
-                                        className=""
+                                        className="container px-20"
                                         src={project.image}
                                     />
                                     {/*absolute inset-0 w-full h-full object-cover object-center */}
@@ -36,16 +36,16 @@ export default function Projects(){
                                     <h1 className="title-font text-lg font-medium text-white mb-3">
                                         {project.title}
                                     </h1>
-                                    <p className="leading-relaxed">
+                                    <p className="leading-relaxed text-blue-200">
                                         {project.description}
                                     </p>
                                     <a href={project.link}
-                                        className="text-blue-400 text-wrap">
+                                        className="text-blue-400 text-wrap hover:text-white">
                                         {project.title} Itch link
                                     </a>
                                     <br />
                                     <a href={project.github}
-                                        className="text-blue-400 text-wrap">
+                                        className="text-blue-400 text-wrap hover:text-white">
                                         {project.title} Github link
                                     </a>
                                 </div>
