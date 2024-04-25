@@ -12,16 +12,16 @@ export default function Navbar(){
                 </a>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-1 md:border-gray-700
                 flex flex-wrap items-center text-base justify-center">
-                    <a href="#projects" className="mr-5 text-blue-400 hover:text-white">
+                    <a href="#projects" className="mr-5 text-blue-400 hover:text-white hover:bg-twilight-800">
                         Projects
                     </a>
-                    <a href="#skills" className="mr-5 text-blue-400 hover:text-white">
+                    <a href="#skills" className="mr-5 text-blue-400 hover:text-white hover:bg-twilight-800">
                         Skills
                     </a>
-                    <a href="https://github.com/Malcjo" className="mr-5 text-blue-400 hover:text-white">
+                    <a href="https://github.com/Malcjo" className="mr-5 text-blue-400 hover:text-white hover:bg-twilight-800">
                         Github
                     </a>
-                    <a href="https://www.instagram.com/joshuaericmalcolm/" className="mr-5 text-blue-400 hover:text-white">
+                    <a href="https://www.instagram.com/joshuaericmalcolm/" className="mr-5 text-blue-400 hover:text-white hover:bg-twilight-800">
                         Instagram
                     </a>
                 </nav>

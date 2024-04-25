@@ -41,12 +41,12 @@ export default function Projects(){
                                     </p>
                                     <a href={project.link}
                                         className="text-blue-400 text-wrap hover:text-white">
-                                        {project.title} Itch link
+                                        {project.title} link
                                     </a>
                                     <br />
                                     <a href={project.github}
                                         className="text-blue-400 text-wrap hover:text-white">
-                                        {project.title} Github link
+                                        {project.title} Github
                                     </a>
                                 </div>
                             </div>

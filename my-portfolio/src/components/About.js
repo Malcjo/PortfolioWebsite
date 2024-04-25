@@ -26,21 +26,23 @@ export default function About(){
                         I enjoy exploring about Game design, Philosophy, Psychology, mental health, and being creative.
 
                     </p>
-                    <div className="content-center">
-                        <div>
-                            <h1 className="text-xl text-white text-left">
-                                My Github:
-                            </h1>
-                            <a href="https://github.com/Malcjo" className="text-blue-400 hover:text-white">
-                                https://github.com/Malcjo
+                    <div className="">
+                        <div className="my-2 py-5">
+                            <a href="https://github.com/Malcjo" 
+                            className="rounded-2xl py-5 px-5 border-4
+                            text-blue-400 hover:text-white 
+                            bg-gray-800 border-gray-900
+                              hover:bg-gray-700">
+                                Github
                             </a>
                         </div>
-                        <div className="py-5">
-                            <h1 className="text-xl text-white text-left">
-                                My Instagram
-                            </h1>
-                            <a href="https://www.instagram.com/joshuaericmalcolm/" className="text-blue-400 hover:text-white">
-                                https://www.instagram.com/joshuaericmalcolm/
+                        <div className="my-2 py-5">
+                            <a href="https://www.instagram.com/joshuaericmalcolm/" 
+                            className="rounded-2xl py-5 px-5 border-4 
+                            text-blue-400 hover:text-white 
+                            bg-gray-800 border-gray-900
+                              hover:bg-gray-700">
+                                Instagram
                             </a>
                         </div>
                     </div>
@@ -49,7 +51,7 @@ export default function About(){
                 <div className="lg:max-w-md lg:w-full md:w-1/2 w-2/5 content-center">
                     <img
                         className="border-4 border-gray-800 object-cover object-center rounded-3xl opacity-70 "
-                        alt="hero"
+                        alt="my painting"
                         src="./void.jpg"
                     />
                 </div>
