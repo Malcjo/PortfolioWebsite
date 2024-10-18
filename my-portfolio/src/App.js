@@ -5,21 +5,28 @@ import Home from './components/Home';
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import WebDev from "./components/ProjectComponents/WebDev";
+//import SoftwareDev from "./components/Projects/SoftwareDev";
+import GameDev from "./components/ProjectComponents/GameDev";
+//import ArtProjects from "./components/Projects/ArtProjects";
+//import OtherProjects from "./components/Projects/OtherProjects";
 
 //style = {{backgroundImage: 'url(./landscape.jpg)'}}
 export default function App() {
   return (
-    <Router>
-      <Navbar />
-      <main className="bg-fixed bg-center bg-cover bg-no-repeat bg-opacity-70 text-gray-400 bg-twilight-700 body-font"
-      style = {{backgroundImage: 'url(./landscape.jpg)', height: 'auto',}}>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/about" element={<About />}/>
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />}/>
-        </Routes>
-      </main>
-    </Router>
+      <Router>
+        <Navbar />
+        <main className="bg-fixed bg-center bg-cover bg-no-repeat bg-opacity-70 text-gray-400 bg-twilight-700 body-font"
+        style = {{backgroundImage: 'url(./landscape.jpg)', height: 'auto',}}>
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/about" element={<About />}/>
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/webdev" element={<WebDev />} />
+            <Route path="/projects/gamedev" element={<GameDev />} />
+            <Route path="/skills" element={<Skills />}/>
+          </Routes>
+        </main>
+      </Router>
   );
 }
