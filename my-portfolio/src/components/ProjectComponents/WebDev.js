@@ -3,7 +3,6 @@ import React from "react";
 import { projects } from "../../WebData";
 
 export default function WebDev() {
-  const webDevProjects = projects.filter(project => project.category === "Web Development");
 
   return (
     <section className="text-gray-400 body-font">
