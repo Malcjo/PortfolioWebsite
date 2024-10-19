@@ -1,11 +1,10 @@
 import React from "react";
-import { projects } from "../../GameDevData";
+import { projects } from "../../../GameDevData";
 
 export default function GameDev() {
-  const gameDevProjects = projects.filter(project => project.category === "Game Development" || project.category === "Other Projects");
-
+//className=" bg-opacity-100 bg-gradient-to-b from-twilight-900  via-twilight-900"
   return (
-    <section className="text-gray-400 body-font">
+    <section className="text-gray-400 ">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
@@ -25,9 +24,9 @@ export default function GameDev() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed text-blue-200">{project.description}</p>
-                  <a href={project.link} className="text-blue-400 text-wrap hover:text-white">{project.title} link</a>
+                  <a href={project.link} className="text-blue-400 text-wrap hover:text-white" target="_blank" rel="noopener noreferrer">{project.title} link</a>
                   <br />
-                  <a href={project.github} className="text-blue-400 text-wrap hover:text-white">{project.title} Github</a>
+                  <a href={project.github} className="text-blue-400 text-wrap hover:text-white" target="_blank" rel="noopener noreferrer">{project.title} Github</a>
                 </div>
               </div>
             </div>

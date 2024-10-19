@@ -1,6 +1,6 @@
 import{ BadgeCheckIcon, ChipIcon} from "@heroicons/react/solid"
 import React from "react";
-import {skills} from "../data"
+import {skills} from "../../data"
 export default function Skills(){
     return (
         <section id = "skills" className="bg-gradient-to-b from-twilight-900  via-twilight-900">

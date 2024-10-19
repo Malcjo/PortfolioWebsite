@@ -1,6 +1,7 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import {Link} from 'react-router-dom';
+import DropdownLink from "./DropdownLink";
 
 export default function Navbar(){
     return (
@@ -13,6 +14,15 @@ export default function Navbar(){
                     <Link to="/projects" className="mr-5 text-blue-400 hover:text-white">
                         Projects
                     </Link>
+                    <DropdownLink
+                    to="/projects"
+                    DropdownLinks={[
+                        {to: "/projects/webdev", text: "Web Development"},
+                        {to: "/projects/gamedev", text: "Game Development"},
+                    ]}
+                    >
+                        Projects
+                    </DropdownLink>
                     <Link to="/skills" className="mr-5 text-blue-400 hover:text-white">
                         Skills
                     </Link>
