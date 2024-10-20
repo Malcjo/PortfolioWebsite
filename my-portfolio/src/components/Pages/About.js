@@ -52,7 +52,7 @@ export default function About(){
                     <img
                         className="border-4 border-gray-800 object-cover object-center rounded-3xl opacity-70 "
                         alt="my painting"
-                        src="./void.jpg"
+                        src="/Images/artwork/void.jpg"
                     />
                 </div>
             </div>

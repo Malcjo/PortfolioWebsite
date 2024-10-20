@@ -1,33 +1,49 @@
-import React, {useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import { Link } from "react-router-dom";
 
 export default function DropdownLink ({to, children, DropdownLinks}){
     const [isOpen, setIsOpen] = useState(false);
+    const dropdownRef = useRef(null);
 
     const toggleDropdown = () => setIsOpen(!isOpen);
     const closeDropdown = () => setIsOpen(false);
 
+    useEffect(() =>{
+        const handleClickOutside = (event) =>{
+            if(dropdownRef.current && !dropdownRef.current.contains(event.target)){
+                closeDropdown();
+            }
+        };
+        document.addEventListener("mousedown", handleClickOutside);
+        return () =>{
+            document.removeEventListener("mousedown", handleClickOutside);
+        }
+    }, [dropdownRef]);
+
+
     return(
-        <div className="relative inline-block text-left">
+        <div className="relative inline-block text-left mx-4 " ref={dropdownRef}>
+
             {/* Main Link with Dropdown Arrow */}
             <div className="flex items-center">
                 <Link
                 to = {to}
-                className="text-white px-4 py-2 bg-gray-800 rounded hover:bg:gray-700"
+                className="text-blue-400 pr-2 py-2rounded hover:bg-gray-700 hover:text-white"
                 onClick={closeDropdown}
                 >
                     {children}
                 </Link>
                 <button
                 onClick={toggleDropdown}
-                className="ml-2 text-white focus:outline-none"
+                className="ml-0 text-white focus:outline-none rounded hover:bg-gray-400"
                 >
                     <svg
                     className="w-5 h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
                         <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -46,7 +62,7 @@ export default function DropdownLink ({to, children, DropdownLinks}){
                             <Link
                                 key={index}
                                 to={dropdownLink.to}
-                                className="block px-4 py-2 text-white hover:bng-gray-700"
+                                className="block px-4 py-2 text-white hover:bg-gray-700"
                                 role="menuitem"
                                 onClick={closeDropdown}
                                 >

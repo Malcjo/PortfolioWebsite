@@ -41,11 +41,10 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/webdev" element={<WebDev />} />
             <Route path="/projects/gamedev" element={<GameDev />} />
-            <Route path="/projects/artprojects" element={<ArtProjects />} />
+            <Route path="/projects/artworks" element={<ArtProjects />} />
             <Route path="/skills" element={<Skills />} />
           </Routes>
         </div>
-        
       </main>
     </Router>
   );

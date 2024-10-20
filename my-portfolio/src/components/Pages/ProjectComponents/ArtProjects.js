@@ -26,7 +26,6 @@ export default function ArtProjects() {
                   <p className="leading-relaxed text-blue-200">{project.description}</p>
                   <a href={project.link} className="text-blue-400 text-wrap hover:text-white" target="_blank" rel="noopener noreferrer">{project.title} link</a>
                   <br />
-                  {/*<a href={project.github} className="text-blue-400 text-wrap hover:text-white">{project.title} Github</a> */}
                 </div>
               </div>
             </div>
