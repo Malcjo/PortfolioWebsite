@@ -9,6 +9,7 @@ import WebDev from "./components/Pages/ProjectComponents/WebDev";
 //import SoftwareDev from "./components/Projects/SoftwareDev";
 import GameDev from "./components/Pages/ProjectComponents/GameDev";
 import ArtProjects from "./components/Pages/ProjectComponents/ArtProjects";
+import IronBrawlers from "./components/Pages/GameDev/IronBrawlers";
 //import OtherProjects from "./components/Projects/OtherProjects";
 
 //<main className="bg-fixed bg-center bg-cover bg-no-repeat bg-opacity-70 text-gray-400 bg-twilight-700 body-font body-font min-h-screen"
@@ -43,6 +44,8 @@ export default function App() {
             <Route path="/projects/gamedev" element={<GameDev />} />
             <Route path="/projects/artworks" element={<ArtProjects />} />
             <Route path="/skills" element={<Skills />} />
+
+            <Route path="/projects/gamedev/ironbrawlers" element={<IronBrawlers />} />
           </Routes>
         </div>
       </main>

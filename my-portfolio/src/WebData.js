@@ -7,6 +7,15 @@ export const projects = [
       "this project has also allowed me to breifly experiment with the free website hosting platform netlify",
     image: "/Images/webdev/Website.png",
     link: "https://malcolmportfolio.netlify.app/",
-    github: "https://github.com/Malcjo/PortfolioWebsite"
+    github: "https://github.com/Malcjo/PortfolioWebsite",
+  },
+  {
+    title: "WordPress Cost Estimator",
+    subtitle: "Wordpress, PHP, Javascript and additional plugins- 2024 - present",
+    description:
+      "",
+    image: "/Images/webdev/Cost_Estimator.png",
+    link: "",
+    github: ""
   },
 ];

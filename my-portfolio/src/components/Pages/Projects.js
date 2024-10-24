@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BackButton from "./ProjectComponents/BackButton";
 
 export default function Projects() {
   return (
     <section className="text-gray-400 body-font">
+      <BackButton />
       <div className="container mx-auto px-5 sm:px-4 md:px-8 lg:px-16 xl:px-24 py-10  text-center">
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
