@@ -24,6 +24,10 @@ export default function IronBrawlers() {
                         <ContentPost className="bg-indigo-700"
                         image="/Images/gamedev/IronBrawlersImages/titleImage.png"
                         />
+                        <ContentPost 
+                        title="idle animation for one of the characters flowerBoi"
+                        image="/Images/gamedev/IronBrawlersImages/Iron-Brawlers.gif"
+                        />
                     </div>
                 </div>
 

@@ -18,4 +18,13 @@ export const projects = [
     link: "",
     github: ""
   },
+  {
+    title: "Twitter clone",
+    subtitle: "React.js, next.js 2024 - present",
+    description:
+      "This was a tutorial project to help me really understand react and to create a fairly more complex project, this was following a tutorial online but really helped with introducing me to the world of React.js",
+    image: "",
+    link: "",
+    github: ""
+  },
 ];
