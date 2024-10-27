@@ -66,7 +66,7 @@ export default function DropdownLink ({to, children, DropdownLinks}){
                                 role="menuitem"
                                 onClick={closeDropdown}
                                 >
-                                {dropdownLink.text} test
+                                {dropdownLink.text}
                             </Link>
                         ))}
                     </div>

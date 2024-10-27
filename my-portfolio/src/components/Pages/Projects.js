@@ -16,10 +16,10 @@ export default function Projects() {
         {/* Sub Navbar */}
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           <Link to="/projects/webdev" className="px-4 py-2 bg-gray-800 text-blue-400 hover:text-white">Web Development</Link>
-          <Link to="/projects/softwaredev" className="px-4 py-2 bg-gray-800 text-blue-400 hover:text-white">Other Software Development</Link>
+          <Link to="/projects/softwaredev" className="px-4 py-2 bg-gray-800 text-blue-400 hover:text-white">Software Development</Link>
           <Link to="/projects/gamedev" className="px-4 py-2 bg-gray-800 text-blue-400 hover:text-white">Game Development</Link>
           <Link to="/projects/artworks" className="px-4 py-2 bg-gray-800 text-blue-400 hover:text-white">Art Projects</Link>
-          <Link to="/projects/otherprojects" className="px-4 py-2 bg-gray-800 text-blue-400 hover:text-white">Other Projects</Link>
+          {/*<Link to="/projects/otherprojects" className="px-4 py-2 bg-gray-800 text-blue-400 hover:text-white">Other Projects</Link>*/}
         </div>
       </div>
     </section>

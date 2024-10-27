@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Pages/Projects";
 import Skills from "./components/Pages/Skills";
 import WebDev from "./components/Pages/ProjectComponents/WebDev";
-//import SoftwareDev from "./components/Projects/SoftwareDev";
+import SoftwareDev from "./components/Pages/ProjectComponents/SoftwareDev";
 import GameDev from "./components/Pages/ProjectComponents/GameDev";
 import ArtProjects from "./components/Pages/ProjectComponents/ArtProjects";
 import IronBrawlers from "./components/Pages/GameDev/IronBrawlers";
@@ -43,6 +43,7 @@ export default function App() {
             <Route path="/projects/webdev" element={<WebDev />} />
             <Route path="/projects/gamedev" element={<GameDev />} />
             <Route path="/projects/artworks" element={<ArtProjects />} />
+            <Route path="/projects/softwaredev" element={<SoftwareDev />} />
             <Route path="/skills" element={<Skills />} />
 
             <Route path="/projects/gamedev/ironbrawlers" element={<IronBrawlers />} />

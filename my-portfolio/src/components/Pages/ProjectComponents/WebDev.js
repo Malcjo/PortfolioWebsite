@@ -1,11 +1,13 @@
 // Example for WebDev.js
 import React from "react";
 import { projects } from "../../../WebData";
+import BackButton from "./BackButton";
 
 export default function WebDev() {
 
   return (
     <section className="text-gray-400 body-font">
+      <BackButton />
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
